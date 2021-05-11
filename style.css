@@ -1,0 +1,219 @@
+html {
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "gc16-Semibold";
+	display: flex;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	overflow: hidden;
+	height: 100vh;
+	will-change: overflow;
+}
+
+.dubois {
+	flex: 1;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none;
+}
+
+.baldwin {
+	flex: 1;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none;
+}
+
+.dubois img {
+	max-width: 100%;
+	
+}
+
+.baldwin img {
+	max-width: 100%;
+}
+
+.redHeader .duboisHeader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 45%;
+	z-index: -2;
+}
+
+.redHeader .baldwinHeader {
+	position: fixed;
+	top: 0;
+	left: 49%;
+	max-width: 45%;
+	z-index: -2;
+}
+
+.redFooter .duboisFooter {
+	position: fixed;
+	bottom: 0;
+	right: 49%;
+	max-width: 45%;
+	z-index: -2;
+}
+
+.redFooter .baldwinFooter {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	max-width: 45%;
+	z-index: -2;
+}
+
+#quote_p4 {
+	background: url("images/DuBoisQuote1_p4.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p18 {
+	background: url("images/DuBoisQuote2_p18.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p20 {
+	background: url("images/DuBoisQuote3_p20.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p32 {
+	background: url("images/DuBoisQuote4_p32.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p42 {
+	background: url("images/DuBoisQuote5_p42.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p46 {
+	background: url("images/DuBoisQuote6_p46.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p48 {
+	background: url("images/DuBoisQuote7_p48.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p50 {
+	background: url("images/DuBoisQuote8_p50.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p56 {
+	background: url("images/DuBoisQuote9_p56.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p64 {
+	background: url("images/DuBoisQuote10_p64.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p5 {
+	background: url("images/BaldwinQuote1_p5.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p9 {
+	background: url("images/BaldwinQuote2_p9.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p11 {
+	background: url("images/BaldwinQuote3_p11.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p15 {
+	background: url("images/BaldwinQuote4_p15.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p17 {
+	background: url("images/BaldwinQuote5_p17.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+#quote_p19 {
+	background: url("images/BaldwinQuote6_p19.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-attachment: fixed;
+	background-size: 50%;
+}
+
+.absolute {
+	position: absolute;
+	z-index: -5;
+	display: none;
+}
+
+.quote:hover .absolute {
+	display: inline;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
